@@ -1,0 +1,231 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "topic": "General",
+      "patterns": [
+        "hi",
+        "hello",
+        "hey",
+        "hii",
+        "good morning",
+        "good evening",
+        "can you help me",
+        "i need help",
+        "start",
+        "help"
+      ],
+      "responses": [
+        "Hello! I’m your AI Internship & Student Helpdesk Assistant. I can help with internship domains, certificates, project submission, support, fees and company information.",
+        "Hi there! Ask me anything about internship domains, certificates, project submission, support or company details.",
+        "Hey! I can help with internship-related FAQs, support questions and company/service information."
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "topic": "General",
+      "patterns": [
+        "bye",
+        "goodbye",
+        "see you",
+        "talk later",
+        "bye chatbot",
+        "okay bye"
+      ],
+      "responses": [
+        "Goodbye! Have a great day.",
+        "See you soon!",
+        "Bye! Come back anytime if you need help."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "topic": "General",
+      "patterns": [
+        "thanks",
+        "thank you",
+        "thx",
+        "thanks a lot",
+        "okay thanks"
+      ],
+      "responses": [
+        "You're welcome!",
+        "Happy to help!",
+        "Anytime! Let me know if you need anything else."
+      ]
+    },
+    {
+      "tag": "internship_domains",
+      "topic": "Internship",
+      "patterns": [
+        "what domains are internship on",
+        "what internship domains are available",
+        "what domains are available",
+        "internship domains",
+        "available domains",
+        "which domains do you offer",
+        "what are the internship fields",
+        "what all domains are there",
+        "which internship tracks are available",
+        "domain list",
+        "what are the domains for internship",
+        "which field can i choose",
+        "what tech domains are offered"
+      ],
+      "responses": [
+        "The internship is available in domains such as AI, Full Stack Development, Backend Development, Data Science, Blockchain, Cloud Computing, Cyber Security and DevOps.",
+        "Available internship domains commonly include AI, Full Stack, Backend, Data Science, Blockchain, Cloud, Cyber Security and DevOps."
+      ]
+    },
+    {
+      "tag": "certificate",
+      "topic": "Internship",
+      "patterns": [
+        "will i get certificate",
+        "internship certificate",
+        "completion certificate",
+        "certificate after internship",
+        "do you provide certificate",
+        "will certificate be given",
+        "do we get internship certificate"
+      ],
+      "responses": [
+        "Yes, internship certificates are generally provided after successful completion of the required tasks as per the internship guidelines.",
+        "A completion/internship certificate is usually provided once you successfully finish the required tasks."
+      ]
+    },
+    {
+      "tag": "project_submission",
+      "topic": "Internship",
+      "patterns": [
+        "how do i submit project",
+        "submission process",
+        "where to submit task",
+        "submission form",
+        "how should i submit my task",
+        "where do i upload my code",
+        "how to submit internship project",
+        "project submission steps"
+      ],
+      "responses": [
+        "The usual process is to upload your source code to GitHub, prepare a short project explanation/demo video, and submit the task through the official internship submission form.",
+        "Typically you need to upload your code to GitHub, record a demo/explanation video, and submit everything using the official task submission form."
+      ]
+    },
+    {
+      "tag": "internship_fee",
+      "topic": "Internship",
+      "patterns": [
+        "is there any internship fee",
+        "internship fee",
+        "program fee",
+        "what is the fee",
+        "is it free or paid",
+        "how much is the internship fee",
+        "any charges for internship"
+      ],
+      "responses": [
+        "For exact internship fee or payment details, it’s best to check the official internship page or contact the support team directly.",
+        "Please refer to the official internship details or support contact for accurate fee/payment information."
+      ]
+    },
+    {
+      "tag": "task_count",
+      "topic": "Internship",
+      "patterns": [
+        "how many tasks do i need to do",
+        "number of tasks",
+        "how many tasks are required",
+        "should i do 2 tasks or 3 tasks",
+        "minimum tasks for internship",
+        "how many projects should i submit"
+      ],
+      "responses": [
+        "You generally need to complete the required number of internship tasks as mentioned in the program guidelines. If your internship asks for 2 or 3 tasks, follow that official requirement while preparing GitHub code and demo submissions.",
+        "Please follow the internship task count mentioned in the official instructions. Make sure each completed task has source code, a demo/explanation video and proper submission."
+      ]
+    },
+    {
+      "tag": "about_company",
+      "topic": "Company & Services",
+      "patterns": [
+        "tell me about your company",
+        "who are you",
+        "about company",
+        "what does your company do",
+        "what is this company",
+        "what kind of company is this"
+      ],
+      "responses": [
+        "The company focuses on software development, AI-based applications, cloud-related solutions and practical project support.",
+        "It works on software solutions, AI applications, cloud projects and technical/project support services."
+      ]
+    },
+    {
+      "tag": "services",
+      "topic": "Company & Services",
+      "patterns": [
+        "what services do you offer",
+        "services",
+        "what do you do",
+        "offerings",
+        "what all do you provide",
+        "what kind of services are available",
+        "what solutions do you offer"
+      ],
+      "responses": [
+        "Services can include software development, AI-based solutions, cloud-related work, technical support and project assistance.",
+        "The services generally include software solutions, AI applications, cloud projects and technical/project support."
+      ]
+    },
+    {
+      "tag": "contact_support",
+      "topic": "Support",
+      "patterns": [
+        "how can i contact support",
+        "contact support",
+        "support email",
+        "phone number",
+        "how do i reach support",
+        "contact details",
+        "how to reach the team"
+      ],
+      "responses": [
+        "You can contact the support team using the official email, phone number or communication channel shared by the organization/internship team.",
+        "Please use the official support contact details shared by the organization for account-specific or urgent issues."
+      ]
+    },
+    {
+      "tag": "working_hours",
+      "topic": "Support",
+      "patterns": [
+        "working hours",
+        "office timings",
+        "support timings",
+        "when is support available",
+        "when are you open",
+        "what are your working hours"
+      ],
+      "responses": [
+        "Support is generally available during standard working/business hours. Please check the official support timings if exact hours are provided.",
+        "For exact support timings, refer to the official contact/help information shared by the organization."
+      ]
+    },
+    {
+      "tag": "support_issue",
+      "topic": "Support",
+      "patterns": [
+        "i have an issue",
+        "i need support",
+        "i am facing a problem",
+        "something is not working",
+        "i need assistance",
+        "can you help with my problem"
+      ],
+      "responses": [
+        "I can help with general internship/company FAQs. For personal account issues, payment issues or urgent problems, please contact the official support team.",
+        "For general information I can help here, but for account-specific or urgent issues please reach out to official support."
+      ]
+    }
+  ]
+}
